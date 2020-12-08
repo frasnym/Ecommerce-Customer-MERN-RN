@@ -15,7 +15,6 @@ export default function MenuHeader(props) {
 	const renderCategories = (categories) => {
 		let myCategories = [];
 		for (let category of categories) {
-			console.log("category", category);
 			myCategories.push(
 				<li key={category._id}>
 					{category.parentId ? (
